@@ -10,7 +10,6 @@ import ArtistSearch from "./components/ArtistSearch";
 import GlobalStyle from "./GlobalStyle";
 import styled from "styled-components";
 import AlbumsPage from "./components/AlbumsPage";
-// import { useHistory } from "react-router";
 
 const App = () => {
   const [spotifyWebApi, setSpotifyWebApi] = useState(null);
@@ -33,7 +32,7 @@ const App = () => {
       spotifyWebApi.setAccessToken(accessToken);
     }
 
-    //when the login expires, pusht the user back to login and alert them
+    //when the login expires, push the user back to login and alert them
     const timeout = setTimeout(() => {
       window.sessionStorage.setItem("accessToken", JSON.stringify(""));
       alert("Your access token has expired. Please login again");

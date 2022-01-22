@@ -12,6 +12,7 @@ import {
 } from "./styled-components";
 import BrokenImage from "../../assets/NoImgAvailable.jpg";
 
+//component that renders out the artist result page. Includes search bar.
 const ArtistResult = ({ artist }) => {
   return (
     <ArtistContainer to={`albums/${artist.id}`}>

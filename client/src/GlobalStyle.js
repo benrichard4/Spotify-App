@@ -47,19 +47,19 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
-        /* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 7px;
-}
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+    width: 7px;
+    }
 
-*::-webkit-scrollbar-track {
-  background: none ;
-}
+    *::-webkit-scrollbar-track {
+    background: none ;
+    }
 
-*::-webkit-scrollbar-thumb {
-  background-color: grey;
-  border-radius: 55px;
-}
+    *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 55px;
+    }
 `;
 
 export default GlobalStyle;

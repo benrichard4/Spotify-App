@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 import BrokenImage from "../../assets/NoImgAvailable.jpg";
 import {
@@ -13,6 +12,7 @@ import {
   SpotifyLink,
 } from "./styled-components";
 
+//component that renders out the album result page
 const AlbumResult = ({ album, artist }) => {
   return (
     <AlbumContainer>
